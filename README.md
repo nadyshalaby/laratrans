@@ -13,7 +13,7 @@ Laravel translation package for building database localized mutli-lang websites.
   - [Contents](#contents)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Toggle your application locale.](#toggle-your-application-locale)
+  - [Change Application Locale.](#change-application-locale)
   - [Consider a donation](#consider-a-donation)
   - [Credits](#credits)
   - [License](#license)
@@ -26,7 +26,7 @@ You can install the package via composer:
 composer require corecave/laratrans
 ```
 
-Laravel auto-discovery with load the service provicer <br>
+Laravel auto-discovery with discover the service provicer <br>
 OR
 <br>
 Add the service provider manually:
@@ -148,7 +148,7 @@ class CreatePeopleTable extends Migration
 
 Then, setup some models, migrations, factories and seeders for `locales`, `people` and `__people` tables or just you can publish them for faster development:
 
-`php artisan vendor:publish --tage="laratrans"`
+`php artisan vendor:publish --tag="laratrans"`
 
 If you test localization in action, just setup a dummy route in your `routes/web.php`)file.
 
@@ -172,9 +172,9 @@ Route::middleware('laratrans:web')->get('/trans', function () {
 
 ```
 
-## Toggle your application locale.
+## Change Application Locale.
 
-To toggle your application localization.
+To change your application localication code.
 Issue a `GET` request to `http://yourdomain.com/localize/web/en`.
 <br>
 
