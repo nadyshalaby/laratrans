@@ -62,7 +62,10 @@ php artisan migrate
 
 After you have installed laratrans package you need to add the
 `MasterTranslatable` and `DetailsTranslatable` traits to your models that you want to make localizable. Additionaly,
-define the fields required by the package for localization to work properly on your migration:
+<br>
+NOTE:- Please note that slave model must be proceeded with underscore `_` and its related table must be proceeded by double underscore `__` (e.g. `Person` => `_Person` , `people` => `__people`)
+<br>
+Then, define the fields required by the package for localization to work properly on your migration:
 
 ```php
 //app\Person.php
@@ -95,6 +98,8 @@ class _Person extends Model
     use DetailsTranslatable;
 }
 ```
+
+If you need to specify a different foreign key name for your model, just override `getForeignKeyName` on `MasterTranslatable` trait.
 
 ```php
 //database\migrations\2020_07_06_185838_create_people_table.php
@@ -150,7 +155,7 @@ Then, setup some models, migrations, factories and seeders for `locales`, `peopl
 
 `php artisan vendor:publish --tag="laratrans"`
 
-If you test localization in action, just setup a dummy route in your `routes/web.php`)file.
+If you want to see localization in action, just setup some dummy routes in your `routes/web.php`)file.
 
 ```php
 // routes/web.php
