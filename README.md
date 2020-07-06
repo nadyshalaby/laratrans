@@ -1,10 +1,9 @@
 # Laratrans for Laravel - Laravel >= 7.0
 
-[![Backers on Open Collective](https://opencollective.com/laravel-scout-tntsearch-driver/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/laravel-scout-tntsearch-driver/sponsors/badge.svg)](#sponsors) [![Latest Version on Packagist](https://img.shields.io/packagist/v/teamtnt/laravel-scout-tntsearch-driver.svg?style=flat-square)](https://packagist.org/packages/teamtnt/laravel-scout-tntsearch-driver)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/teamtnt/laravel-scout-tntsearch-driver/master.svg?style=flat-square)](https://travis-ci.org/teamtnt/laravel-scout-tntsearch-driver)
-[![Quality Score](https://img.shields.io/scrutinizer/g/teamtnt/laravel-scout-tntsearch-driver.svg?style=flat-square)](https://scrutinizer-ci.com/g/teamtnt/laravel-scout-tntsearch-driver)
-[![Total Downloads](https://img.shields.io/packagist/dt/teamtnt/laravel-scout-tntsearch-driver.svg?style=flat-square)](https://packagist.org/packages/teamtnt/laravel-scout-tntsearch-driver)
+[![GitHub issues](https://img.shields.io/github/issues/corecave/laratrans)](https://github.com/corecave/laratrans/issues)
+[![GitHub forks](https://img.shields.io/github/forks/corecave/laratrans)](https://github.com/corecave/laratrans/network)
+[![GitHub stars](https://img.shields.io/github/stars/corecave/laratrans)](https://github.com/corecave/laratrans/stargazers)
+[![GitHub license](https://img.shields.io/github/license/corecave/laratrans)](https://github.com/corecave/laratrans/blob/master/LICENSE.txt)
 
 Laravel translation package for building database localized mutli-lang websites..
 
