@@ -1,0 +1,26 @@
+{
+    "name": "corecave/laratrans",
+    "description": "Laravel helper package for building database mutli-lang websites.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nady Shalaby",
+            "email": "nadyshalaby@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CoreCave\\Laratrans\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoreCave\\Laratrans\\LaratransServiceProvider"
+            ]
+        }
+    }
+}
