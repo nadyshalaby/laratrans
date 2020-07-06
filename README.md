@@ -190,4 +190,4 @@ Become a patreon and encourage us to do more. [[Become a patreon](https://www.pa
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.txt) for more information.

@@ -22,7 +22,7 @@ class LaratransServiceProvider extends ServiceProvider
             __DIR__ . '/database/factories' => base_path('database/factories'),
             __DIR__ . '/database/migrations' => base_path('database/migrations'),
             __DIR__ . '/database/seeds' => base_path('database/seeds'),
-            __DIR__ . '/database/modles' => base_path('app'),
+            __DIR__ . '/database/models' => base_path('app'),
         ], 'laratrans');
     }
 
